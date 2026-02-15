@@ -30,6 +30,20 @@ More information and tips:
 docs/releases/Hotfix-Documentation-Best-Practices.md
 -->
 
+<<<<<<< HEAD
+=======
+## Flutter 3.41 Changes
+
+### [3.41.1](https://github.com/flutter/flutter/releases/tag/3.41.1)
+
+- [flutter/182314](https://github.com/flutter/flutter/issues/182314) Test coverage is broken due to pinned `test_api` version in `flutter_test`.
+- [flutter/182335](https://github.com/flutter/flutter/issues/182335) Version 1.29 of the Dart test package adds a blank line to test output causing unexpected test failures.
+
+### [3.41.0](https://github.com/flutter/flutter/releases/tag/3.41.0)
+
+Learn about what's new in this release in [the blog post](https://blog.flutter.dev/whats-new-in-flutter-3-41-302ec140e632), and check out the [CHANGELOG](https://docs.flutter.dev/release/release-notes/release-notes-3.41.0) for a detailed list of all the new changes.
+
+>>>>>>> 582a0e7c5581dc0ca5f7bfd8662bb8db6f59d536
 ## Flutter 3.38 Changes
 
 ### [3.38.5](https://github.com/flutter/flutter/releases/tag/3.38.5)
@@ -72,6 +86,16 @@ docs/releases/Hotfix-Documentation-Best-Practices.md
 Learn about what's new in this release in [the blog post](https://blog.flutter.dev/whats-new-in-flutter-3-38-3f7b258f7228), and check out the [CHANGELOG](https://docs.flutter.dev/release/release-notes/release-notes-3.38.0) for a detailed list of all the new changes.
 
 ## Flutter 3.35 Changes
+
+### [3.35.7](https://github.com/flutter/flutter/releases/tag/3.35.7)
+
+- [flutter/174082](https://github.com/flutter/flutter/issues/174082) Apps, on all platforms, that extend MenuController class see a compile time failure when building.
+- [flutter/173770](https://github.com/flutter/flutter/issues/173770) Mitigates a memory leak that occurs on Android, when `Activities` are not kept upon exit and an Activity is exited and re-entered.
+
+### [3.35.6](https://github.com/flutter/flutter/releases/tag/3.35.6)
+
+- [flutter/175669](https://github.com/flutter/flutter/issues/175669) `flutter analyze --suggestions` supports versions up to Java 25, Gradle 9 and AGP 9, Kotlin 2.2.20.
+- [flutter/172624](https://github.com/flutter/flutter/issues/172624) Fixes an issue that could result in a corrupt pipeline cache when using the Impeller Vulkan back end.
 
 ### [3.35.5](https://github.com/flutter/flutter/releases/tag/3.35.5)
 
